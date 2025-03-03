@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none;
+}
+
+body {
+    /* background-color: black; */
+}
+
+.cursor {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: 0.1s ease;
+    border: 5px solid white;
+    font-weight: bolder;
+    position: fixed;
+    z-index: 100000;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1a1a1a;
+    border: 1px solid white;
+    height: 400px;
+    width: 100%;
+    font-size: 30px;
+    transform: translateY(-100%);
+    transition: 1s ease;
+}
+
+.nav-btns {
+    padding: 4px 10px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border-radius: -50%;
+    outline: none;
+    border: none;
+    background-color: white;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    margin-bottom: 0;
+}
+
+.visible {
+    transform: translateY(0);
+}
+
+nav .features {
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    color: wheat;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    margin-inline: auto;
+    margin-block: 50px;
+}
+
+.search input {
+    font-size: 2rem;
+    width: 38%;
+    /* border: none; */
+    outline: none;
+    padding: 5px;
+    padding-left: 10px;
+    margin-left: 370px;
+}
+
+.search #search {
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    background: blue;
+    color: white;
+    font-size: 1rem;
+}
+
+body {
+    background: white;
+    color: black;
+}
+
+.dark-mode {
+    background: black;
+    /* color: white; */
+}
+
+.search #mybtn {
+    margin-right: 20px;
+    float: right;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px 25px;
+    background: white;
+    color: black;
+    font-size: 1rem;
+}
+
+.container {
+    margin-top: 80px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* background: hsl(0, 0%, 80%); */
+}
+
+.container .cards {
+    padding: 10px;
+    background: hsl(0, 0%, 80%);
+}
+
+.container .cards h2 {
+    margin-bottom: 18px;
+    font-size: 2.5rem;
+}
+
+.container .cards button {
+    margin-top: 20px;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    background: blue;
+    color: white;
+    font-size: 1rem;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}

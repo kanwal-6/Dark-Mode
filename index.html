@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button class="nav-btns" onclick="toggleNav()">=</button>
+    <nav>
+        <button class="nav-btns" onclick="toggleNav()">X</button>
+        <br><br><br>
+        <div class="features">
+            <div class="items">
+                <ul>
+                    <a href="home">Home</a>
+                    <a href="About us">About us</a>
+                    <a href="Contact us">Contact us</a>
+                    <a href="Gallery">Gallery</a>
+                    <a href="Feedback">Feedback</a>
+                    <a href="Bookmark">Bookmark</a>
+                    <a href="Collection">Collection</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="search">
+        <input id="searched" type="text">
+        <button id="search">search</button>
+        <!-- <button id="theme-switch">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                <path
+                    d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                <path
+                    d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z" />
+            </svg>
+        </button> -->
+        <button id="mybtn"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                fill="#5f6368">
+                <path
+                    d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z" />
+            </svg></button>
+    </div>
+    <div class="container">
+        <div class="cards">
+            <h2>Web Development</h2>
+            <p>Web development is the process of creating websites and applications for the internet. It involves both
+                frontend and backend development tasks that enable web functionality.</p>
+            <button>Click here</button>
+        </div>
+
+        <div class="cards">
+            <h2>Mobile Development</h2>
+            <p>Mobile development focuses on designing and building applications for smartphones and tablets. It
+                includes both iOS and Android platforms for varied device functionality.</p>
+            <button>Click here</button>
+        </div>
+
+        <div class="cards">
+            <h2>UI/UX Design</h2>
+            <p>UI/UX design involves creating user interfaces and experiences that are visually appealing and
+                functional. It aims to enhance user satisfaction through effective design principles.</p>
+            <button>Click here</button>
+        </div>
+
+        <div class="cards">
+            <h2>Cloud Computing</h2>
+            <p>Cloud computing refers to the delivery of computing services, such as storage and processing, over the
+                internet. It reduces the need for physical hardware and infrastructure management.</p>
+            <button>Click here</button>
+        </div>
+
+        <div class="cards">
+            <h2>Data Science</h2>
+            <p>Data science uses scientific methods and algorithms to analyze and interpret complex data. The goal is to
+                extract valuable insights that inform business decisions and strategies.</p>
+            <button>Click here</button>
+        </div>
+
+        <div class="cards">
+            <h2>Cybersecurity</h2>
+            <p>Cybersecurity involves protecting systems, networks, and data from digital attacks. It aims to ensure the
+                integrity, confidentiality, and availability of information across platforms.</p>
+            <button>Click here</button>
+        </div>
+
+        <div class="cards">
+            <h2>Artificial Intelligence</h2>
+            <p>Artificial intelligence (AI) refers to systems that simulate human intelligence. These systems learn,
+                reason, and solve problems, mimicking cognitive functions like decision-making.</p>
+            <button>Click here</button>
+        </div>
+
+        <div class="cards">
+            <h2>Blockchain</h2>
+            <p>Blockchain is a decentralized digital ledger technology that records transactions across multiple
+                computers. It ensures transparency and security in data management processes.</p>
+            <button>Click here</button>
+        </div>
+
+        <div class="cards">
+            <h2>Machine Learning</h2>
+            <p>Machine learning is a subset of AI focused on algorithms that enable computers to learn from data. It
+                allows systems to improve performance over time without explicit programming.</p>
+            <button>Click here</button>
+        </div>
+
+        <div class="cards">
+            <h2>Virtual Reality</h2>
+            <p>Virtual reality (VR) immerses users in a computer-generated 3D environment. Using VR headsets and
+                controllers, users can interact with virtual spaces and objects in real time.</p>
+            <button>Click here</button>
+        </div>
+
+        <div class="cards">
+            <h2>Augmented Reality</h2>
+            <p>Augmented reality (AR) overlays digital content onto the real world. Using devices like smartphones or AR
+                glasses, AR enhances user experiences by blending physical and digital elements.</p>
+            <button>Click here</button>
+        </div>
+
+        <div class="cards">
+            <h2>Internet of Things</h2>
+            <p>The Internet of Things (IoT) connects devices and objects to the internet. It enables data exchange and
+                interaction among devices, creating smarter environments and systems.</p>
+            <button>Click here</button>
+        </div>
+
+        <div class="cards">
+            <h2>DevOps</h2>
+            <p>DevOps combines software development and IT operations to shorten development cycles. It aims to increase
+                deployment frequency and enhance product quality through continuous integration.</p>
+            <button>Click here</button>
+        </div>
+
+        <div class="cards">
+            <h2>SEO</h2>
+            <p>Search Engine Optimization (SEO) is the practice of improving website visibility in search engine
+                results. SEO strategies include optimizing content and ensuring mobile-friendly design.</p>
+            <button>Click here</button>
+        </div>
+
+        <div class="cards">
+            <h2>Big Data</h2>
+            <p>Big data refers to large datasets that are analyzed to uncover patterns, trends, and associations. It is
+                crucial for driving insights and improving decision-making across industries.</p>
+            <button>Click here</button>
+        </div>
+
+        <div class="cards">
+            <h2>Natural Language Processing</h2>
+            <p>Natural Language Processing (NLP) is a field of AI focused on enabling computers to understand human
+                language. It powers applications like chatbots, voice assistants, and translation tools.</p>
+            <button>Click here</button>
+        </div>
+
+        <div class="cards">
+            <h2>Robotic Process Automation</h2>
+            <p>Robotic Process Automation (RPA) uses software robots to automate repetitive tasks. It enhances
+                operational efficiency by reducing human error and streamlining business processes.</p>
+            <button>Click here</button>
+        </div>
+
+        <div class="cards">
+            <h2>Quantum Computing</h2>
+            <p>Quantum computing harnesses the principles of quantum mechanics to process data in new ways. It has the
+                potential to solve problems too complex for traditional computers to handle.</p>
+            <button>Click here</button>
+        </div>
+
+        <div class="cards">
+            <h2>5G Technology</h2>
+            <p>5G technology represents the fifth generation of wireless communication. It delivers faster speeds, lower
+                latency, and improved connectivity for a wide range of internet-enabled devices.</p>
+            <button>Click here</button>
+        </div>
+
+        <div class="cards">
+            <h2>Edge Computing</h2>
+            <p>Edge computing processes data closer to its source rather than relying on distant data centers. This
+                reduces latency and enhances real-time data processing for various applications.</p>
+            <button>Click here</button>
+        </div>
+
+
+
+    </div>
+    <script src="logic.js"></script>
+</body>
+
+</html>
